@@ -14,7 +14,7 @@ function NavBars() {
             document.body.style.color = "black";
         }else{
             setMode(Light);
-            document.body.style.background = "#2c3e50";
+            document.body.style.background = "#2f3542";
             document.body.style.color  = "#fff";
         }
     }
