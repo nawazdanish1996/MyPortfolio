@@ -1,0 +1,36 @@
+.col-md-3 .proj {
+    background-image: url(../images/My\ pic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 250px;
+    aspect-ratio: 4/4;
+    border-radius: 20px;
+    transition: all 1s ease;
+}
+
+.col-md-3 a{
+    text-decoration: none;
+}
+.col-md-3 .fa-github {
+    font-size: 40px;
+}
+
+.col-md-3 .proj:hover {
+    box-shadow: 0 0 10px black;
+    background-image:none;
+    transition: all 1s ease;
+}
+
+.proj h4, .proj i {
+    display: none;
+    transition: all 1s ease;
+}
+
+.proj:hover h4, .proj:hover i {
+    display: block;
+}
+
+.fa-github:hover{
+    color: black;
+}
