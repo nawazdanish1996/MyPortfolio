@@ -99,7 +99,7 @@ function Contact() {
                     <br />
                     <textarea name="message" className="form-control" onChange={(e)=> setVal(e.target.value)} value={val} id="" cols="30" rows="5" placeholder="Message"></textarea>
                     <br />
-                    <div className="text-center">
+                    <div className="text-center mb-3">
                       <input type="submit" value='Send' className='btn btn-success w-25' />
                       <input onClick={HandReset} value='Reset' className='btn btn-success w-25 m-2' />
                     </div>
