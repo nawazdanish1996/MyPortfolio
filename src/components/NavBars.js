@@ -32,8 +32,8 @@ function NavBars() {
                 <a href="index.html">
                     <i className="fa-solid fa-code text-primary fs-3 ms-5 me-4"></i>
                 </a>
-                <img className='ms-5' onClick={Mode} src={mode} alt="Mode" style={{width: "30px", cursor: "pointer"}} />
             </Navbar.Brand>
+            <img className='ms-5 ms-auto me-4' onClick={Mode} src={mode} alt="Mode" style={{width: "30px", cursor: "pointer"}} />
 
             <Navbar.Toggle className="coloring" />
             <Navbar.Collapse>

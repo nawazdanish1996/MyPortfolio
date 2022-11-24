@@ -1,3 +1,4 @@
+import "../css/Contact.css";
 import React, {useState, useRef, useEffect} from 'react';
 import emailjs from "@emailjs/browser";
 import swal from 'sweetalert';
@@ -71,7 +72,7 @@ function Contact() {
                 </div>
 
                 <div className="col-md-6">
-                    <div className="mt-5">
+                    <div className="mt-2">
                         <i class="fa-solid fa-location-dot float-start"></i>
                         <span>West Bengal, India</span>
                     </div>
@@ -89,7 +90,7 @@ function Contact() {
                     </div>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-md-6 mt-5">
                     <form ref={form} onSubmit={FormSubmitHandler}>
                     <input name="user_name" className="form-control" style={{fontWeight: "700"}} onChange={(e)=> setName(e.target.value)} value={name} type="text" placeholder='FULL NAME' />
                     <br />
@@ -100,8 +101,8 @@ function Contact() {
                     <textarea name="message" className="form-control" onChange={(e)=> setVal(e.target.value)} value={val} id="" cols="30" rows="5" placeholder="Message"></textarea>
                     <br />
                     <div className="text-center mb-3">
-                      <input type="submit" value='Send' className='btn btn-success w-25' />
-                      <input onClick={HandReset} value='Reset' className='btn btn-success w-25 m-2' />
+                      <input type="submit" value='Send' className='btn btn-success w-25 m-1 ' />
+                      <input onClick={HandReset} value='Reset' className='btn btn-success w-25 m-1' />
                     </div>
                     </form>
                 </div>

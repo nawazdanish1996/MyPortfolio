@@ -41,7 +41,7 @@ function Portfolio() {
             </div>
 
             <div className="row">
-                <div className="col-md-3 col-lg-3 col-sm-6 text-center">
+                <div className="col-md-3 col-lg-3 col-sm-6 text-center mb-sm-5 mb-5">
                     <h5 className="mt-3 text-primary">University Website</h5>
                     <div onClick={Show} className={show}>
                         <img src={ProjectImg} alt="Projec4" />
@@ -51,7 +51,7 @@ function Portfolio() {
                     </div>
                 </div>
 
-                <div className="col-md-3 col-lg-3 col-sm-6 text-center">
+                <div className="col-md-3 col-lg-3 col-sm-6 text-center mb-sm-5 mb-5">
                     <h5 className="mt-3 text-primary">TV Maze</h5>
                     <div onClick={Show} className={show}>
                         <img src={ProjectImg} alt="Projec4" />
@@ -61,7 +61,7 @@ function Portfolio() {
                     </div>
                 </div>
 
-                <div className="col-md-3 col-lg-3 col-sm-6 text-center">
+                <div className="col-md-3 col-lg-3 col-sm-6 text-center mb-sm-5 mb-5">
                     <h5 className="mt-3 text-primary">eCom Website</h5>
                     <div onClick={Show} className={show}>
                         <img src={ProjectImg} alt="Projec4" />
@@ -71,7 +71,7 @@ function Portfolio() {
                     </div>
                 </div>
 
-                <div className="col-md-3 col-lg-3 col-sm-6 text-center">
+                <div className="col-md-3 col-lg-3 col-sm-6 text-center mb-sm-5 mb-5">
                     <h5 className="mt-3 text-primary">Inc. & Dec. App</h5>
                     <div onClick={Show} className={show}>
                         <img src={ProjectImg} alt="Projec4" />
