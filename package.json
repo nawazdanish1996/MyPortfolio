@@ -1,7 +1,7 @@
 {
   "name": "nawaz-portfolio-app",
   "version": "0.1.0",
-  "homepage" : "https://nawazdanish1996.github.io/NDPortfolio/",
+  "homepage": "https://nawazdanish1996.github.io/NDPortfolio/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
