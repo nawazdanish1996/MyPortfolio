@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "name": "HTML",
+      "icon": "/public/Skill icons/html.png"
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "icon": "./Skill icons/css-3.png"
+    },
+    {
+      "id": 3,
+      "name": "JS",
+      "icon": "./Skill icons/html-5.png"
+    },
+    {
+      "id": 4,
+      "name": "SASS/SCSS",
+      "icon": "./Skill icons/sass.png"
+    },
+    {
+      "id": 5,
+      "name": "Bootstrap",
+      "icon": "./Skill icons/bootstrap.png"
+    },
+    {
+      "id": 6,
+      "name": "React",
+      "icon": "./Skill icons/react.png"
+    },
+    {
+      "id": 7,
+      "name": "Redux",
+      "icon": "./Skill icons/redux.png"
+    },
+    {
+      "id": 8,
+      "name": "Node",
+      "icon": "./Skill icons/node-js.png"
+    },
+    {
+      "id": 9,
+      "name": "Git",
+      "icon": "./Skill icons/git.png"
+    },
+    {
+      "id": 10,
+      "name": "GitHub",
+      "icon": "./Skill icons/github.png"
+    }
+  ]
+  

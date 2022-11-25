@@ -2,6 +2,8 @@ import React, {useEffect} from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import "../css/About.css";
+import images from "./Images.json";
+
 
 function About() {
     useEffect(()=>{
@@ -10,8 +12,8 @@ function About() {
 
   return (
     <div id='about'>
-        <div className="container mt-3" data-aos="fade-right">
-            <div className="row">
+        <div className="container mt-3">
+            <div className="row" data-aos="fade-right">
                 <div className="col-md-12 text-center text-justify">
                     <h3 className='text-uppercase text-primary text-decoration-underline'>About Me</h3>
                     <p>&nbsp; &nbsp; &nbsp; I am Nawaz Danish from West Bengal district of North Dinajpur, I am a React Developer with hands-on experience in identifying web-based user interactions along with highly responsive user interface components by deploying react concepts and writing code via JavaScript and React.js workflows. Monitoring and maintaining frontend performance.</p>
@@ -19,7 +21,7 @@ function About() {
                 </div>
             </div>
 
-            <div className="row">
+            <div className="row" data-aos="fade-right">
                 <div className="col-md-4">
                     <div id='box'>
                         <h4 id='boxNo'>4</h4>
@@ -40,20 +42,20 @@ function About() {
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col-md-12">
-                    <h3 className='text-uppercase text-primary text-decoration-underline'>My Skills</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>SCSS/SASS</li>
-                        <li>Javascript</li>
-                        <li>Bootstrap</li>
-                        <li>React</li>
-                        <li>Redux</li>
-                        <li>Git</li>
-                        <li>GitHub</li>
-                    </ul>
+            <div className="row" data-aos="fade-right">
+                <h3 className='text-uppercase text-primary text-decoration-underline'>My Skills</h3>
+                <div className="col-md-6">
+                    <div>
+                        {
+                            images.map((val, ind)=>{
+                                return(
+                                    <div>
+                                        <img src="val.icon" alt="Skill icons" />
+                                    </div>
+                                )
+                            })
+                        }
+                    </div>
                 </div>
             </div>
         </div>
