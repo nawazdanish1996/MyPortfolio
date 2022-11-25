@@ -42,21 +42,23 @@ function About() {
                 </div>
             </div>
 
-            <div className="row" data-aos="fade-right">
-                <h3 className='text-uppercase text-primary text-decoration-underline'>My Skills</h3>
-                <div className="col-md-6">
-                    <div>
-                        {
-                            images.map((val, ind)=>{
-                                return(
-                                    <div>
-                                        <img src="val.icon" alt="Skill icons" />
-                                    </div>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
+            <div class="main" data-aos="fade-right">
+                    <h3 className='mt-2 text-uppercase text-primary text-decoration-underline'>My Skills</h3>
+                <ul class="cards">
+                    <li class="cards_item">
+                        <div class="card">
+                            <div class="card_image">
+                                {
+                                    images.map((val, ind)=>{
+                                        return(
+                                            <img id='imgCard' className='card-img-top ms-5 pt-2 pb-2' style={{width: "40px", margin: "0 auto"}} src={val.icon} alt="Skill icons" />
+                                        )
+                                    })
+                                }
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>

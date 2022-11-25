@@ -2,52 +2,52 @@
     {
       "id": 1,
       "name": "HTML",
-      "icon": "/public/Skill icons/html.png"
+      "icon": "https://raw.githubusercontent.com/nawazdanish1996/MyPortfolio/master/public/Skill%20icons/html.png"
     },
     {
       "id": 2,
       "name": "CSS",
-      "icon": "./Skill icons/css-3.png"
+      "icon": "https://raw.githubusercontent.com/nawazdanish1996/MyPortfolio/master/public/Skill%20icons/css-3.png"
     },
     {
       "id": 3,
       "name": "JS",
-      "icon": "./Skill icons/html-5.png"
+      "icon": "https://raw.githubusercontent.com/nawazdanish1996/MyPortfolio/master/public/Skill%20icons/js.png"
     },
     {
       "id": 4,
       "name": "SASS/SCSS",
-      "icon": "./Skill icons/sass.png"
+      "icon": "https://raw.githubusercontent.com/nawazdanish1996/MyPortfolio/master/public/Skill%20icons/sass.png"
     },
     {
       "id": 5,
       "name": "Bootstrap",
-      "icon": "./Skill icons/bootstrap.png"
+      "icon": "https://raw.githubusercontent.com/nawazdanish1996/MyPortfolio/master/public/Skill%20icons/bootstrap.png"
     },
     {
       "id": 6,
       "name": "React",
-      "icon": "./Skill icons/react.png"
+      "icon": "https://raw.githubusercontent.com/nawazdanish1996/MyPortfolio/master/public/Skill%20icons/react.png"
     },
     {
       "id": 7,
       "name": "Redux",
-      "icon": "./Skill icons/redux.png"
+      "icon": "https://raw.githubusercontent.com/nawazdanish1996/MyPortfolio/master/public/Skill%20icons/redux.png"
     },
     {
       "id": 8,
       "name": "Node",
-      "icon": "./Skill icons/node-js.png"
+      "icon": "https://raw.githubusercontent.com/nawazdanish1996/MyPortfolio/master/public/Skill%20icons/node-js.png"
     },
     {
       "id": 9,
       "name": "Git",
-      "icon": "./Skill icons/git.png"
+      "icon": "https://raw.githubusercontent.com/nawazdanish1996/MyPortfolio/master/public/Skill%20icons/git.png"
     },
     {
       "id": 10,
       "name": "GitHub",
-      "icon": "./Skill icons/github.png"
+      "icon": "https://raw.githubusercontent.com/nawazdanish1996/MyPortfolio/master/public/Skill%20icons/github.png"
     }
   ]
   
