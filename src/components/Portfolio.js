@@ -32,7 +32,7 @@ function Portfolio() {
 
   return (
     <div id="portfolio">
-        <div className="container" data-aos="fade-left">
+        <div className="container" data-aos="fade-up">
             <div className="row">
                 <div className="col-md-12 mt-3">
                     <h3 className='text-uppercase text-primary text-decoration-underline'>My Projects</h3>

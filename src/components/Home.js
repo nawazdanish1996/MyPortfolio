@@ -13,7 +13,7 @@ function Home() {
     
   return (
     <div id='home'>
-         <div data-aos="fade-left" className="container text-center mt-md-5 mt-sm-5 mt-3 mb-md-5 mb-sm-5 mb-3">
+         <div data-aos="fade-up" className="container text-center mt-md-5 mt-sm-5 mt-3 mb-md-5 mb-sm-5 mb-3">
           <div className="row">
             <div className="col-md-6">
               <img loading="lazy" id='profileImg' src={myPic} alt="myPic" />

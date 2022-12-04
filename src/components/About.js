@@ -14,7 +14,7 @@ function About() {
   return (
     <div id='about'>
         <div className="container mt-3">
-            <div className="row" data-aos="fade-right">
+            <div className="row" data-aos="fade-up">
                 <div className="col-md-12 text-center text-justify">
                     <h3 className='text-uppercase text-primary text-decoration-underline'>About Me</h3>
                     <p>&nbsp; &nbsp; &nbsp; I am Nawaz Danish from West Bengal district of North Dinajpur, I am a React Developer with hands-on experience in identifying web-based user interactions along with highly responsive user interface components by deploying react concepts and writing code via JavaScript and React.js workflows. Monitoring and maintaining frontend performance.</p>
@@ -22,7 +22,7 @@ function About() {
                 </div>
             </div>
 
-            <div className="row" data-aos="fade-right">
+            <div className="row" data-aos="fade-up">
                 <div className="col-md-4">
                     <div id='box'>
                         <h4 id='boxNo'>4</h4>
@@ -62,7 +62,7 @@ function About() {
                 </ul>
             </div> */}
 
-            <div className="row" data-aos="fade-right">
+            <div className="row" data-aos="fade-up">
                 <div className="col-md-12">
                     <h3 className='mt-2 text-uppercase text-primary text-decoration-underline'>My Skills</h3>
                     <div>

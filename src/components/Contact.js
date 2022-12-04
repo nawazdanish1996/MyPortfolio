@@ -63,15 +63,15 @@ function Contact() {
 
   return (
     <div id='contact'>
-        <div className="container" data-aos="fade-right">
+        <div className="container">
             <div className="row">
 
-                <div className="col-md-12 mt-3">
+                <div className="col-md-12 mt-3" data-aos="fade-up">
                     <h3 className='text-uppercase text-primary text-decoration-underline'>Contact me!</h3>
                     <p>For any query feel free to contact me, Thank You!</p>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-md-6" data-aos="fade-up">
                     <div className="mt-2">
                         <i class="fa-solid fa-location-dot float-start"></i>
                         <span>West Bengal, India</span>
@@ -90,7 +90,7 @@ function Contact() {
                     </div>
                 </div>
 
-                <div className="col-md-6 mt-5">
+                <div className="col-md-6 mt-5" data-aos="fade-up">
                     <form ref={form} onSubmit={FormSubmitHandler}>
                     <input name="user_name" className="form-control" style={{fontWeight: "700"}} onChange={(e)=> setName(e.target.value)} value={name} type="text" placeholder='FULL NAME' />
                     <br />

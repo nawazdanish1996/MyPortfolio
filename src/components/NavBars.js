@@ -25,7 +25,7 @@ function NavBars() {
 
   return (
     <div id='navbarss'>
-        <div data-aos="fade-right">
+        <div data-aos="fade-up">
             <Navbar bg="dark" variant="dark"
             sticky="top" expand="md" collapseOnSelect>
             <Navbar.Brand>
