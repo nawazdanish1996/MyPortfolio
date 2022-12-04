@@ -3,7 +3,7 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 import "../css/About.css";
 import images from "./Images.json";
-import {LazyLoadImage} from "react-lazy-load-image-component";
+// import {LazyLoadImage} from "react-lazy-load-image-component";
 
 
 function About() {
@@ -69,7 +69,7 @@ function About() {
                         {
                             images.map((val, ind)=>{
                                 return(
-                                    <LazyLoadImage id='imgCard' className='card-img-top ms-5 pt-2 pb-2' style={{width: "40px", margin: "0 auto"}} src={val.icon} alt={val.name} />
+                                    <img id='imgCard' className='card-img-top ms-5 pt-2 pb-2' style={{width: "60px", margin: "0 auto"}} src={val.icon} alt={val.name} />
                                 )
                             })
                         }
