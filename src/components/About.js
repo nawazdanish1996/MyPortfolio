@@ -3,7 +3,7 @@ import Aos from 'aos';
 import "aos/dist/aos.css";
 import "../css/About.css";
 import images from "./Images.json";
-// import {LazyLoadImage} from "react-lazy-load-image-component";
+import {LazyLoadImage} from "react-lazy-load-image-component";
 
 
 function About() {
@@ -43,25 +43,6 @@ function About() {
                 </div>
             </div>
 
-            {/* <div class="main" data-aos="fade-right">
-                    <h3 className='mt-2 text-uppercase text-primary text-decoration-underline'>My Skills</h3>
-                <ul class="cards">
-                    <li class="cards_item">
-                        <div class="card">
-                            <div class="card_image">
-                                {
-                                    images.map((val, ind)=>{
-                                        return(
-                                            <img id='imgCard' className='card-img-top ms-5 pt-2 pb-2' style={{width: "40px", margin: "0 auto"}} src={val.icon} alt="Skill icons" />
-                                        )
-                                    })
-                                }
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div> */}
-
             <div className="row" data-aos="fade-up">
                 <div className="col-md-12">
                     <h3 className='mt-2 text-uppercase text-primary text-decoration-underline'>My Skills</h3>
@@ -69,7 +50,7 @@ function About() {
                         {
                             images.map((val, ind)=>{
                                 return(
-                                    <img id='imgCard' className='card-img-top ms-5 pt-2 pb-2' style={{width: "60px", margin: "0 auto"}} src={val.icon} alt={val.name} />
+                                    <LazyLoadImage id='imgCard' className='card-img-top ms-5 pt-2 pb-2' style={{width: "60px", margin: "0 auto"}} src={val.icon} alt={val.name} />
                                 )
                             })
                         }
