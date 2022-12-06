@@ -4,12 +4,17 @@ import myPic from "../images/My pic.jpg";
 import Resume from "../ResumeInPDF/Resume-Nawaz Danish.pdf";
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 function Home() {
+  const [text] = useTypewriter({
+    words: ["React Developer", "Frontend Developer"],
+    loop: 0
+  });
 
-    useEffect(()=>{
-        Aos.init({duration: 2000})
-    },[]);
+  useEffect(()=>{
+    Aos.init({duration: 2000})
+  },[]);
     
   return (
     <div id='home'>
@@ -20,7 +25,10 @@ function Home() {
             </div>
             <div style={{textAlign: "justify"}} className="col-md-6 mt-md-2 mt-sm-2">
               <h1 className="mt-md-5 mt-sm-5">Hi! I'm <span>Nawaz Danish</span></h1>
-              <h5 className="mt-md-2 mt-sm-2">React Developer || Frontend Web Developer</h5>
+              <h3 className="mt-md-2 mt-sm-2 text-success">
+                {text}
+                <Cursor cursorColor="red" />
+              </h3>
               <p className="mt-md-2 mt-sm-2">I am a React Developer with hands-on experience in identifying web-based user interactions along with highly responsive user interface components by deploying react concepts and writing code via Javascript and React.js workflows. Monitoring and maintaining frontend performance.</p>
             </div>
           </div>
